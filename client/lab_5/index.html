@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matt Melmed Lab 5: HTML Forms, CSS Frameworks, HTTP Methods</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class ="has-background-danger-dark">
+<div class="wrapper">
+<div class="container">
+    <section class="section">
+        <div class="box has-background-warning-dark is-family-sans-serif">
+            <h1 class="title">Matt Melmeds's Lab 5</h1>
+        </div>
+      </section>
+
+<div class="columns is-centered is-vcentered is-family-sans-serif">
+<form class="column box mx-6 has-background-warning-dark" action="/api" method="GET" class="body">
+    <div class="field">
+      <label class="label">First Name</label>
+      <div class="control">
+        <input class="input" type="text">
+      </div>
+    </div>
+  
+    <div class="field ">
+      <label class="label">Food Preference</label>
+      <div class="control">
+        <input class="input" type="text">
+      </div>
+    </div>
+    <div class="control">
+        <label class="label">Veggie or Vegan?</label>
+        <label class="radio">
+          <input type="radio" name="answer">
+          Yes
+        </label>
+        <label class="radio">
+          <input type="radio" name="answer">
+          No
+        </label>
+      </div>
+  
+    <button class="button is-primary">Submit</button>
+  </form>
+
+  <div class="box column mx-6 has-background-warning-dark">
+      This will be something in two weeks
+  </div>
+</div>
+</div>
+</div>
+</body>
+</html>
