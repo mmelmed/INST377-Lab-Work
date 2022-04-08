@@ -1,19 +1,66 @@
-YOUR NAME Lab 4: HTML Forms
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Matt Melmed Lab 4: HTML Forms</title>
+    <link rel='stylesheet' href='styles.css'/>
+    <h1 class = "title">Matt Melmed Lab 4: HTML Forms</h1>
+  </head>
+  <body>
+    <div class='menu-container'>
+        <div class='menu'>
+          <div class='date'>Apr 8, 2022</div>
+          <nav>
+            <a class='signup' href="data.html">Database demos</a>
+            <a class='login' href="index.html">Main Page</a>
+          </nav>
+        </div>
+      </div>
+    <div class='header-container'>
+        <div class='header'>
+            <nav class="subscribe">
+                <a href="https://group8-final-inst377sp22.herokuapp.com">Group Project Link</a>
+            </nav>
+            <div class='logo'><img src='images/awesome-logo.svg'/></div>
+            <nav class='social'>
+                <a href="https://github.com/mmelmed/INST377-Lab-Work">GitHub Link</a>
+            </nav>
+        </div>
+      </div>
+      <div class='photo-grid-container'>
 
-today's date
-Database Demos
-Main Page
+        <div class=carousel_actions>
+            <button id=carousel_button-prev>Prev</button>
+        </div>
 
-Group Project Link (no site yet)
-Awesome Logo
-Github Link
+        <div class='carousel'>
+          <div class='carousel_item carousel_item--visible'>
+            <img src='images/one.svg'/>
+          </div>
+          <div class='carousel_item'>
+            <img src='images/two.svg'/>
+          </div>
+          <div class='carousel_item'>
+            <img src='images/three.svg'/>
+          </div>
+          <div class='carousel_item'>
+            <img src='images/four.svg'/>
+          </div>
+          <div class='carousel_item'>
+            <img src='images/five.svg'/>
+          </div>
+        </div>
 
-image_1
-image_2
-image_3
-image_4
-image_5
+        <div class=carousel_actions>
+            <button id=carousel_button-next>Next</button>
+        </div>
+      </div>
+      <div class='footer'>
+        <div class='footer-item footer-one'>footer item 1</div>
+        <div class='footer-item footer-two'>footer item 2</div>
+        <div class='footer-item footer-three'>footer item 3</div>
+      </div>
 
-footer item 1
-footer item 2
-footer item 3
+      <script src="script.js"></script>
+  </body>
+</html>
