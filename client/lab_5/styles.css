@@ -16,6 +16,8 @@ body {
 .columns {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper {
@@ -25,3 +27,4 @@ body {
   max-width: 960px;
   margin-top: 25px;
 }
+
