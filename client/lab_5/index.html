@@ -17,34 +17,52 @@
       </section>
 
 <div class="columns is-centered is-vcentered is-family-sans-serif">
-<form class="column box mx-6 has-background-warning-dark" method="GET" class="body">
+  <!--
+<form class="column box mx-6 has-background-warning-dark" action="https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json" method="GET" class="body">
     <div class="field">
-      <label class="label">First Name</label>
+      <label class="label" name="first-name">First Name</label>
       <div class="control">
         <input class="input" type="text">
       </div>
     </div>
   
     <div class="field ">
-      <label class="label">Food Preference</label>
+      <label class="label" name="food-name">Food Preference</label>
       <div class="control">
         <input class="input" type="text">
       </div>
     </div>
     <div class="control">
-        <label class="label">Veggie or Vegan?</label>
+        <label class="label" name="food-type">Veggie or Vegan?</label>
         <label class="radio">
-          <input type="radio" name="answer">
+          <input type="radio" name="food-type">
           Yes
         </label>
         <label class="radio">
-          <input type="radio" name="answer">
+          <input type="radio" name="food-type">
           No
         </label>
       </div>
   
-    <button class="button is-primary">Submit</button>
+    <input type="submit" value="Submit" class="submit is-primary">
   </form>
+-->
+  <form class="main_form box mx-6 has-background-warning-dark" class="body">
+    <label for="first-name">First name:</label><br>
+    <input type="text" id="first-name" name="first-name"><br>
+    <label for="food-name">Food Preference:</label><br>
+    <input type="text" id="food-name" name="food-name"><br><br>
+
+    <label class="label" name="food-type">Veggie or Vegan?</label>
+    <input type="radio" id="yes" name="food-type" value="Yes">
+    <label for="yes">Yes</label><br>
+    <input type="radio" id="no" name="food-type" value="No">
+    <label for="no">No</label><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+
 
   <div class="box column mx-6 has-background-warning-dark">
       This will be something in two weeks
@@ -52,6 +70,6 @@
 </div>
 </div>
 </div>
-    <script src="script.js"></script>
+     <script src="script.js"></script>
 </body>
 </html>
