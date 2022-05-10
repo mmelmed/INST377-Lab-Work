@@ -98,3 +98,5 @@ table {
     text-align: left;
     padding: 8px;
   }
+
+  #map { height: 360px; }

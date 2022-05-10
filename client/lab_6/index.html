@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matt Melmed Lab 6</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+  <body>
+    <div class="column is-centered">
+      <div class='box'>
+        <div class='title'>Matt Melmed's Lab 6: Javascript 2</div>
+      </div>
+    </div>
+    
+    <div class="columns is-one-third is-centered is-mobile is-family-sans-serif">
+      <div class ='column is-narrow'>
+        <form class="box" method='GET' id="form">
+          <div class='field'>
+            <label for='label'><strong>First Name</strong></label>
+            <div class ='control'><input id='label1' name='first-name' type='text'/></div>
+          </div>
+          <div class='field'>
+            <label for='label1'><strong>Food Preference</strong></label>
+            <div class ='control'><input id='label2' name='food-preference' type='text'/></div>
+          </div>
+          <div class='field'>
+            <legend><strong>Veggie or Vegan?</strong></legend>
+            <input id='Veggie-or-Vegan'
+                   name='preference'
+                   type='radio'
+                   value='Yes' />
+            <label for='talk-type-1' class='radio-label'>Yes</label>
+            <input id='Veggie-or-Vegan2'
+                   name='preference'
+                   type='radio'
+                   value='No' />
+            <label for='talk-type-2' class='radio-label'>No</label>
+          </div>
+          <button class="button is-primary" id= "submit">Submit</button>
+        </form>
+      </div>
+      <div class="column is-two-thirds is-centered">
+        <div class = 'box' id = "side_box">
+            <h2>Restaurant List:</h2>
+            <ul class="resto-list"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
